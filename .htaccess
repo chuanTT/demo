@@ -1,0 +1,13 @@
+RewriteEngine On
+
+RewriteRule "gioi-thieu/" "?action=introduce"
+RewriteRule "thuc-don/" "?action=menu"
+RewriteRule "uu-dai/" "?action=endow"
+RewriteRule "tuyen-dung/" "?action=endow"
+RewriteRule "dat-ban/" "?action=put_table"
+RewriteRule "blog/" "?action=blog"
+RewriteRule "home" "?action=home"
+RewriteRule "^uu-dai/(.*)$" "?action=endow&page=$1"
+
+RewriteRule "^uudai/(.*)-(.*)$" "?action=endow&newsID=$1&Name=$2"
+
