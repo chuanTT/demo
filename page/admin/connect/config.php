@@ -1,8 +1,8 @@
 <?php
     const Server = "remotemysql.com";
-    const User = "TniQ5sSGOl";
-    const Password = "5LVPIFEzWu";
-    const Database = "TniQ5sSGOl";
+    const User = "vz21rEXpBY";
+    const Password = "kMSHhJqktb";
+    const Database = "vz21rEXpBY";
     const key = "agaghhagdyqwcagwtwehaihdgyawfgdaywgud";
     const Valid__Image = ["jpg","jpeg","png"];
     const default_image = ["AvatarFemale.jpg","AvatarMale.jpg"];
