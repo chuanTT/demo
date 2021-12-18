@@ -139,17 +139,14 @@ endswitch;
             echo '<div class="margin-top-180"></div>';
             require_once "./modules/put_table/put_table.php";
             echo '<div class="margin-top-60"></div>';
-            $title = 'Đặt bàn - Lẩu Wang';
             break;
         case 'endow':
             require_once "./modules/endow/endow.php";
-            $title = 'Đặt bàn - Lẩu Wang';
             break;
         case 'blog':
             require_once "./modules/blog/blog.php";
             break;
         default:
-            $title = 'Lẩu Wang - Vua Buffet Lẩu - Hệ Thống Chuỗi Nhà Hàng Buffet Hà Nội';
             require_once "./modules/homepage/home.php";
             echo '<div class="margin-top-180"></div>';
     endswitch;
